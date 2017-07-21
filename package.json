@@ -8,7 +8,7 @@
     "dev": "node build/dev-server.js",
     "deploy": "git push origin :gh-pages && git subtree push --prefix dist origin gh-pages",
     "start": "node build/dev-server.js",
-    "build": "node build/build.js",
+    "build": "rimraf dist && node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
