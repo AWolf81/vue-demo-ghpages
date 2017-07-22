@@ -1,5 +1,14 @@
 # vue-demo-ghpages
 
+Test project for deploying a Vue app with Vue-Router & history mode to github pages.
+
+This Vue app is just the Vue-cli webpack template with one Vue route added to test deployment.
+
+**Note**
+Deployment is working if history mode is disabled. With history mode the routing is not working at gh pages.
+
+Changed deployment to surge.sh because historyAPI is fully supported and deployment is easier.
+
 > A Vue.js project
 
 ## Build Setup

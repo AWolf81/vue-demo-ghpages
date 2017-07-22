@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
-    "deploy": "git push origin :gh-pages && git subtree push --prefix dist origin gh-pages",
+    "deploy": "surge --domain http://swift-cream.surge.sh",
     "start": "node build/dev-server.js",
     "build": "rimraf dist && node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
