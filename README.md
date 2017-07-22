@@ -4,6 +4,8 @@ Test project for deploying a Vue app with Vue-Router & history mode to github pa
 
 This Vue app is just the Vue-cli webpack template with one Vue route added to test deployment.
 
+Deployed to http://swift-cream.surge.sh
+
 **Note**
 Deployment is working if history mode is disabled. With history mode the routing is not working at gh pages.
 
